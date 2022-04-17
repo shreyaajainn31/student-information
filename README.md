@@ -1,7 +1,7 @@
 # student-information
 APIs to get, edit, delete, add student information. My SQL database is used. 
 
-
+---------------------------------------------------------------------------------
 API Request are as follows:
 
 1. Get Information: 
@@ -34,3 +34,22 @@ ID is needed for this.
 
 
 After running the springboot application, copy the above URL's for testing. 
+
+---------------------------------------------------------------------------------
+
+MY SQL DATABASE
+
+---------------------------------------------------------------------------------
+
+Student Table:
+
+CREATE TABLE student{
+    id int primary key auto_increment,
+    name varchar(200),
+    email varchar(200),
+    dob varchar(200),
+    age int
+};
+
+
+
